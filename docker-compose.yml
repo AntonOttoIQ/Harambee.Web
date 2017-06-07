@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  harambee.web:
+    image: harambee.web
+    build:
+      context: ./Harambee.Web
+      dockerfile: Dockerfile
